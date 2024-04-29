@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Frost</id>
+    <version>1.0.0</version>
+    <authors>Frost</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="ModernWpfUI" version="0.9.6" exclude="Build,Analyzers" />
+        <dependency id="WindowsAPICodePack.Shell.CommonFileDialogs" version="1.1.5" exclude="Build,Analyzers" />
+        <dependency id="ini-parser" version="2.5.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/82b12ac249fbb223299e6a234b87b948.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\joshu\OneDrive\Desktop\Launcher-V1-main\WpfApp6\bin\Release\net6.0-windows\Frost.runtimeconfig.json" target="lib\net6.0-windows7.0\Frost.runtimeconfig.json" />
+    <file src="C:\Users\joshu\OneDrive\Desktop\Launcher-V1-main\WpfApp6\bin\Release\net6.0-windows\Frost.dll" target="lib\net6.0-windows7.0\Frost.dll" />
+    <file src="C:\Users\joshu\OneDrive\Desktop\Launcher-V1-main\WpfApp6\82b12ac249fbb223299e6a234b87b948.ico" target="content\82b12ac249fbb223299e6a234b87b948.ico" />
+    <file src="C:\Users\joshu\OneDrive\Desktop\Launcher-V1-main\WpfApp6\82b12ac249fbb223299e6a234b87b948.ico" target="contentFiles\any\net6.0-windows7.0\82b12ac249fbb223299e6a234b87b948.ico" />
+  </files>
+</package>
